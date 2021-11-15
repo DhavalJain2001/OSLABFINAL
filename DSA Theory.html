@@ -19,19 +19,35 @@
         <h2><strong>
     Disk Scheduling Algorithm
 </strong></h2>
-            <p><t>Disk scheduling algorithms are the algorithms that are used for scheduling a disk. Generally, the scheduling refers to a time-table for completing any task or a job. With the help of the operating system, disk scheduling is performed. We use disk scheduling to schedule the Input/output requests that arrive for the disk.  
+            <pre>
 
-                In other words, we can define disk scheduling as a method that is used by the OS (operating system) to schedule the next upcoming requests. Disk Scheduling is also called Input/output scheduling.
-                
-                <br>
-                <br>
-                Disk scheduling is important because of the following reasons:
-                <br>
-                <br>
-                The slowest part of the computer system is the hard drive. So, to access the hard drive conveniently or effectively, we need disk scheduling.
-                There may be chances that two or more requests can be distant from each other. Therefore, more disk arm movement can happen. Thus, we need disk scheduling for such handling case
-                Sometimes, there are various I/O requests which arrive from the different processes. But at a time, the disk controller can only serve one I/O request. So, in this way, the other requests have to wait in the waiting queue, and scheduling is needed for those processes that are waiting in the waiting queue..</t></p>
-        
+Disk scheduling algorithms are the algorithms that are used for scheduling a disk. Generally, the scheduling refers to a time-table for completing any task or a job. With the help of the operating system, disk scheduling is performed. We use disk scheduling to schedule the Input/output requests that arrive for the disk.  
+
+In other words, we can define disk scheduling as a method that is used by the OS (operating system) to schedule the next upcoming requests. Disk Scheduling is also called Input/output scheduling.
+
+Disk scheduling is important because of the following reasons:
+
+The slowest part of the computer system is the hard drive. So, to access the hard drive conveniently or effectively, we need disk scheduling.
+There may be chances that two or more requests can be distant from each other. Therefore, more disk arm movement can happen. Thus, we need disk scheduling for such handling case
+Sometimes, there are various I/O requests which arrive from the different processes. But at a time, the disk controller can only serve one I/O request. So, in this way, the other requests have to wait in the waiting queue, and scheduling is needed for those processes that are waiting in the waiting queue.
+
+Objective of Disk Scheduling Algorithm
+The objectives of the disk scheduling algorithm are:
+Less traveling head time.
+Fairness.
+Throughput must be high.
+Purpose of Disk Scheduling
+The purpose of disk scheduling is to choose a disk request from the input/output requests queue and then scheduling the remaining request means which has to be processed
+Basic Terms
+There are various types of disk scheduling algorithms, but before discussing them, we need to know various essentials terms which are given below:
+Seek Time: – Seek time is defined as the time which is used to find the disk arm to a stated track where the data must be read and write. The better disk algorithm is one that gives less average seek time.
+Transfer Time: – Transfer time is defined as the time which is used for data transfer. Transfer time depends on two things:
+Bytes which we have to transfer
+2) The rotation speed of the disk.
+ Rotational Latency: – Rotational latency means the time which is needed to rotate the desired sector into a position so that a read/write heads can be accessed. The better disk scheduling algorithm is that which takes less rotational latency.
+Disk Access Time: – We can define disk access time as:
+
+Disk Response Time: – Disk response time is defined as the average time, which is used by an individual request, waiting for input/output operations. The best scheduling algorithm is one that gives less variance response.
     </div>
 
 
