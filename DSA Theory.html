@@ -31,23 +31,32 @@ The slowest part of the computer system is the hard drive. So, to access the har
 There may be chances that two or more requests can be distant from each other. Therefore, more disk arm movement can happen. Thus, we need disk scheduling for such handling case
 Sometimes, there are various I/O requests which arrive from the different processes. But at a time, the disk controller can only serve one I/O request. So, in this way, the other requests have to wait in the waiting queue, and scheduling is needed for those processes that are waiting in the waiting queue.
 
-Objective of Disk Scheduling Algorithm
+
+<b>Objective of Disk Scheduling Algorithm:</b>
+
 The objectives of the disk scheduling algorithm are:
 Less traveling head time.
 Fairness.
 Throughput must be high.
 Purpose of Disk Scheduling
 The purpose of disk scheduling is to choose a disk request from the input/output requests queue and then scheduling the remaining request means which has to be processed
-Basic Terms
-There are various types of disk scheduling algorithms, but before discussing them, we need to know various essentials terms which are given below:
-Seek Time: – Seek time is defined as the time which is used to find the disk arm to a stated track where the data must be read and write. The better disk algorithm is one that gives less average seek time.
-Transfer Time: – Transfer time is defined as the time which is used for data transfer. Transfer time depends on two things:
-Bytes which we have to transfer
-2) The rotation speed of the disk.
- Rotational Latency: – Rotational latency means the time which is needed to rotate the desired sector into a position so that a read/write heads can be accessed. The better disk scheduling algorithm is that which takes less rotational latency.
-Disk Access Time: – We can define disk access time as:
 
-Disk Response Time: – Disk response time is defined as the average time, which is used by an individual request, waiting for input/output operations. The best scheduling algorithm is one that gives less variance response.
+
+<b>Basic Terms</b>
+
+There are various types of disk scheduling algorithms, but before discussing them, we need to know various essentials terms which are given below:
+
+<b>Seek Time: – </b>Seek time is defined as the time which is used to find the disk arm to a stated track where the data must be read and write. The better disk algorithm is one that gives less average seek time.
+
+<b>Transfer Time: -</b>Transfer time is defined as the time which is used for data transfer. Transfer time depends on two things:
+1)Bytes which we have to transfer
+2) The rotation speed of the disk.
+
+<b>Rotational Latency: –</b> Rotational latency means the time which is needed to rotate the desired sector into a position so that a read/write heads can be accessed. The better disk scheduling algorithm is that which takes less rotational latency.
+
+<b>Disk Access Time: –</b> We can define disk access time as:
+
+<b>Disk Response Time: –</b> Disk response time is defined as the average time, which is used by an individual request, waiting for input/output operations. The best scheduling algorithm is one that gives less variance response.
    </pre> </div>
 
 
