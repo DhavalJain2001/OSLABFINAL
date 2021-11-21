@@ -53,7 +53,7 @@ Likewise , all four algorithms and their theories have been implemented
 
 ## Website Visualization
 
-Insert gif or link to demo
+![13](https://dhavaljain2001.github.io/OSLABFINAL/HOME.html) 
 
 
 ## Developers
