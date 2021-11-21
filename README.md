@@ -55,8 +55,6 @@ Likewise , all four algorithms and their theories have been implemented
 
 ![13](https://dhavaljain2001.github.io/OSLABFINAL/HOME.html) 
 
-![1](https://user-images.githubusercontent.com/91715629/142756280-6202abcc-67f2-41fc-8207-ff1e10511d8e.jpeg)
-
 ## Developers
 
 - [@Ankita Dimri](https://www.linkedin.com/in/ankita-dimri-8b222819b/)
