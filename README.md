@@ -19,7 +19,7 @@ We have implemented a section of OS Virtual Lab-  Disk Scheduling Algorithms whe
 
 
 ## Fundamental Terms 
-1. What is Disk Scheduling Algorithm and how its types are implemented.
+1. What is Disk Scheduling Algorithm and how its importance.
 2. Objectives of Disk Scheduling Algorithms
 3. Basic Terms:
     * Seek Time
